@@ -119,7 +119,7 @@ def save_rgb(values):
         file.write(state)
 
 
-# Startup
+# Startup sequence
 load_rgb()
 
 network.hostname("pico-light")
